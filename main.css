@@ -1,0 +1,25 @@
+p {
+    font-family: sans-serif
+}
+h1, h2, h3, h4, h5 {
+    font-family: serif;
+    text-align: center
+}
+a {
+    text-decoration: none;
+    color: #4242ea
+}
+ul {
+    list-style: none;
+}
+footer span {
+    font-weight: 700;
+}
+.weather {
+    font-size: 40px;
+}
+.above-the-fold {
+    display: inline-block;
+}
+
+
