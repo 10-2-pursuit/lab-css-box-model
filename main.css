@@ -35,9 +35,32 @@ footer span {
     border-color: grey;
 }
 
+.breaking-news > img {
+    width: 200px;
+}
+
 .breaking-news {
     padding-top: 0px;
     padding-bottom: 0pc;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold div {
+    width: 500px;
 }
