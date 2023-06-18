@@ -1,0 +1,43 @@
+p {
+    font-family: sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    list-style: none;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.weather > p {
+    font-size: 40px;
+}
+
+.above-the-fold > article {
+    display: inline-block;
+}
+
+.weather {
+    width: 300px;
+    border: 2px;
+    border-color: grey;
+}
+
+.breaking-news {
+    padding-top: 0px;
+    padding-bottom: 0pc;
+    padding-left: 30px;
+    padding-right: 30px;
+}
