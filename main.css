@@ -2,7 +2,7 @@ p {
     font-family: sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5{
     font-family: serif;
     text-align: center;
 }
@@ -24,13 +24,30 @@ footer span {
     font-size: 40px; 
 }
 
+.above-the-fold {
+    align-items: center;
+    justify-content: center;
+    /* display: ; */
+}
+
 .above-the-fold article {
     display: inline-block;
+    text-align: center;
 }
 
 .weather {
+    margin-left: 5%;
+}
+
+.breaking-news {
+    /* max-width: 60%; */
+    width: calc(90vw - 360px - 5%)
+}
+
+
+.weather {
     width: 300px;
-    border: 2px solid gray
+    border: 2px solid gray;
 }
 
 .breaking-news {
@@ -44,7 +61,15 @@ footer span {
     width: 200px;
 }
 
+.click-bait {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: max(15%);
+    padding-right: max(15%); */
+}
 .click-bait article {
+    text-align: center;
     display: inline-block;
     width: 250px;
     margin: 16px;
@@ -52,8 +77,11 @@ footer span {
     box-sizing: border-box;
 }
 
+
 .below-the-fold article {
     display: inline-block;
+    /* text-align: center; */
+    
 }
 
 .below-the-fold img {
@@ -64,5 +92,25 @@ footer span {
 }
 
 .below-the-fold div {
+    display: inline-block;
     width: 500px;
+}
+
+.below-the-fold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+
+}
+
+footer li {
+    margin: 10px;
+    /* padding: 0px 0px 0px 0px; */
 }
