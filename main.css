@@ -8,6 +8,7 @@ h1, h2 , h3, h4, h5, h6 {
     padding: 10px;
 }
 a {
+    font-size: .85em;
     text-decoration: none;
     color: #4242EA;
 }
@@ -24,14 +25,19 @@ footer span {
     font-size: 40px;
 }
 
+.above-the-fold {
+    padding: 20px;
+}
+
 .above-the-fold article {
     display: inline-block;
+    padding: 10px;
 }
 
 .weather {
     width: 300px;
     position: relative;
-    bottom: 0;
+    bottom: 50px;
     left: 20PX;
     border: 2px solid gray;
     padding: 10px 20px;
@@ -40,9 +46,10 @@ footer span {
 .breaking-news {
     box-sizing: border-box;
     padding: 0px 30px;
-    width: calc(100% - 370px);
+    width: calc(100% - 400px);
     text-align: center;
     overflow: auto;
+    margin: 35px;
 }
 
 .breaking-news img {
@@ -94,6 +101,21 @@ ul {
 }
 
 
-li {
-padding: 10px;
+footer li, a {
+  background-image: linear-gradient(to right, red, yellow, green);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+  padding: 10px;
+  background-color: red;
+  transition: background-color 0.5s;
+}
+
+footer li:hover, a {
+    background-color: red;
+  background-position: right;
+}
+
+section:hover,
+footer:hover {
+  background-color: rgb(248, 245, 245);
 }
