@@ -1,0 +1,61 @@
+.body {
+    font-family: sans-serif;
+}
+
+.h1,.h2,.h3,.h4,.h5 {
+    font-family: serif;
+    text-align: center;
+}
+
+.a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+.ul{
+    list-style: none;
+}
+
+.footer {
+font-weight: 700;
+
+}
+.weather {
+    font-size: 40px;
+    width: 300px;
+    border: 2px gray;
+}
+
+.above-the-fold {
+    display: inline-block;
+}
+
+.breaking-news {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.breaking-news img {
+    width: 200px;
+    
+}
+
+.click-bait{
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold {
+    display: inline-block;
+    width: 500px;
+}
+
+.below-the-fold img {
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
