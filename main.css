@@ -54,6 +54,10 @@ footer span {
     box-sizing: border-box;
 }
 
+.below-the-fold article {
+    display: inline-block;
+}
+
 .below-the-fold img {
     display: inline-block;
     margin: 16px;
