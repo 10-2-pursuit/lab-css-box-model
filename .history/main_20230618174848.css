@@ -41,11 +41,10 @@ footer span {
     padding-bottom: 0px;
     padding-left: 30px;
     padding-right: 30px;
-    width: 40%;
 }
 
 .breaking-news img {
-    width: 200px;
+    width: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
